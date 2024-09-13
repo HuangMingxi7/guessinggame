@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Random rand = new Random();
-        int x = rand.nextInt(10);  // Random number between 0 and 99
+        int x = rand.nextInt(100);  // Random number between 0 and 99
 
         Scanner scan = new Scanner(System.in);
         int guess;
